@@ -11,5 +11,3 @@ function namify(users) {
   //Возвращаем массив 'names'
   return names;
 }
-
-let names = namify(users);
