@@ -1,3 +1,4 @@
+/*
 function filterRange(arr, a, b) {
   //Создаем новый массив для хранения отфильтрованных элементов
   const filtered = [];
@@ -12,5 +13,13 @@ function filterRange(arr, a, b) {
   });
 
   //Возвращаем массив 'filtered'
+  return filtered;
+}
+*/
+function filterRange(arr, a, b) {
+  const filtered = arr.filter(function(num) {
+    return num >= a && num <= b;
+  });
+
   return filtered;
 }

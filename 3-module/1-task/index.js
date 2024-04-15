@@ -1,4 +1,4 @@
-function namify(users) {
+/*function namify(users) {
   //Создаем пустой массив для хранения имен
   let names = [];
 
@@ -9,5 +9,14 @@ function namify(users) {
   });
 
   //Возвращаем массив 'names'
+  return names;
+}
+*/
+function namify(users) {
+ 
+  const names = users.map(function(user) {
+    return user.name;
+  });
+
   return names;
 }
